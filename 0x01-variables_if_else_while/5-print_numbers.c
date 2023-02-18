@@ -13,5 +13,5 @@ int main(void)
 
 	printf("\n");
 
-	return (90);
+	return (0);
 }
