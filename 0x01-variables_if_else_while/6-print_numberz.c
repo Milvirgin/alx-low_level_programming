@@ -1,4 +1,4 @@
-#includer <stdio.h>
+#include <stdio.h>
 /**
  * main - Entry point
  *
@@ -9,7 +9,7 @@ int main(void)
 {
 	int c;
 
-	c = 0;
+	c = o;
 	while
 		(c < 10) {
 			putchar(c + '0');
