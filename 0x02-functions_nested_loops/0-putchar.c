@@ -2,7 +2,7 @@
 
 /**
  * main - print _putchar
- * written by milvirgin
+ *
  * Return: Always 0
  */
 int main(void)
