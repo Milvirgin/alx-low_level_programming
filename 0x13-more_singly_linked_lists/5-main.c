@@ -5,11 +5,13 @@
 
 /**
  * main - check the code
+ * 
  * Return: Always 0.
  */
 int main(void)
 {
     listint_t *head;
+
     head = NULL;
     add_nodeint_end(&head, 0);
     add_nodeint_end(&head, 1);
@@ -20,7 +22,7 @@ int main(void)
     add_nodeint_end(&head, 402);
     add_nodeint_end(&head, 1024);
     print_listint(head);
-    free_listint(head);
-    head = NULL;
+    free_listint2(&head);
+    printf("%p\n", (void *)head);
     return (0);
 }
